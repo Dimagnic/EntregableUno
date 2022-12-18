@@ -1,0 +1,60 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+.Card{
+    background-color: white;
+    padding: 30px;
+    border-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+}
+.Information{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 20px;
+} 
+.Arrow-Information{
+    background-color: white;
+    align-self: flex-end;
+}
+.fa-solid{
+    font-size: 5rem;   
+}
+p {
+    margin-top: .5rem;
+    color: red;
+    width: 500px;
+    }
+.quote2{
+    color: red;
+}
+.arrow {
+    font-size: 4rem;
+    color: white;
+}
+.Arrow-Information h2{
+    color: red;
+}
+.button{
+    background: red;
+    border-radius: 50%;
+    
+}
